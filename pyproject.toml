@@ -1,0 +1,31 @@
+[project]
+name = "gameshow-study"
+version = "0.2.0"
+description = "Turn stressful exam review into an exciting game show."
+authors = [
+    {name = "Keming He",email = "keminghe.career@gmail.com"}
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pyarrow (==19.0.0)",
+    "streamlit (>=1.44.1,<2.0.0)"
+]
+
+[tool.poetry.group.dev.dependencies]
+watchdog = "^6.0.0"
+
+[project.urls]
+homepage = "https://gameshow.study"
+repository = "https://github.com/KemingHe/gameshow-study"
+documentation = "https://github.com/KemingHe/gameshow-study/blob/main/README.md"
+"Bug Tracker" = "https://github.com/KemingHe/gameshow-study/issues"
+
+[tool.poetry]
+package-mode = false
+requires-poetry = ">2.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
