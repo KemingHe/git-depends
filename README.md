@@ -1,3 +1,3 @@
-# Study Game Show
+# Git Depends
 
-Turn stressful exam review into an exciting game show.
+Auto-gens comprehensive dependency graph for your repository.
